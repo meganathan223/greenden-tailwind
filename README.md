@@ -8,9 +8,15 @@ A simple, fast, and fully responsive multi-page website built using **Tailwind C
 
 ## 📁 Pages Included
 
-*   **🏠 Home / Landing Page:** Features a bold hero section, value propositions, and an action-focused CTA.
-*   **📦 Products:** A responsive grid layout showcasing available items with hover effects.
+*   **🏠 Home / Landing Page:** Responsive Navigation bar with three key pages and introduction to Greenden 
+*   **📦 Products:** A responsive grid layout showcasing available Products list with hover effects.
 *   **✉️ Contact:** A clean, accessible user inquiry form with styled inputs.
+
+## 📱 Responsive Layout Rules
+The project is built mobile-first. Responsive views switch layout parameters using native Tailwind breakpoints:
+*   `sm:` Small screens (Phones)
+*   `md:` Medium screens (Tablets)
+*   `lg:` Large screens (Desktops)
 
 ## 🛠️ Tech Stack
 
@@ -40,8 +46,3 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ### 4. Launch the App
 Open your web browser and launch your target root template folder file (e.g., `index.html`) to see the website live!
 
-## 📱 Responsive Layout Rules
-The project is built mobile-first. Responsive views switch layout parameters using native Tailwind breakpoints:
-*   `sm:` Small screens (Phones)
-*   `md:` Medium screens (Tablets)
-*   `lg:` Large screens (Desktops)
