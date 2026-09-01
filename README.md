@@ -40,7 +40,7 @@ npx tailwindcss init
 ### 3. Start the Compilation Watcher
 Run this command in your terminal to automatically build and compile your styles whenever you update your code:
 ```bash
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
 
 ### 4. Launch the App
